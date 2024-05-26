@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+</head>
+<body>
+    <div class="container">
+       <div class="todo-app">
+            <h2>Saturo Gojos To-Do List <img src="./images/icons8-satoru-gojo.svg" alt="Saturo-Gojo-Icon"> </h2>
+            <div class="row">
+                <input type="text" name="add-todo" id="todo-input" placeholder="...">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <div class="error-message">
+                <p class="error-message-text hidden">Input can not be empty!</p>
+            </div>
+            <ul id="list-container">
+            </ul>
+       </div> 
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
